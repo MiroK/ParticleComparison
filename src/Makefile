@@ -5,7 +5,7 @@ OPTFLAGS = -Wall
 
 SRCLIST = ParticleFactory.cpp main.cpp
 
-EXEC = particles.x
+EXEC = ../particles.x
 
 SRCDIR = .
 OBJDIR = obj

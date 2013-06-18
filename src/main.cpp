@@ -43,7 +43,8 @@ void time_call(int N)
             particles.at(i)["n"][0] = 1;
        
     cstop = clock() ;
-    std::cout << (double)(cstop - cstart)/CLOCKS_PER_SEC << std::endl;
+    std::cout << "Call to [] took " <<
+             (double)(cstop - cstart)/CLOCKS_PER_SEC << std::endl;
 }
 
 // time correct send_receive

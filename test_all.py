@@ -10,7 +10,7 @@ class bcolors:
 test_d = {0 : "Memory", 1 : "Call", 2 : "Send/Recv"}
 particle_d = {0 : "ParticleArray", 1 : "ParticleMap", 2 : "ParticleStatic"}
 
-for test_type in [0, 1, 2]:
+for test_type in [1, 2]: #[0, 1, 2]:
     for particle_type in [0, 1, 2]:
         for particle_count in [10000, 100000, 1000000, 2000000]:
             
